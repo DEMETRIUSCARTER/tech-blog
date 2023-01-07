@@ -23,7 +23,8 @@
 ## TECHNOLOGIES USED
 VISUAL STUDIO CODE,
 HTML,
-CSS
+CSS,
+.NET Core WebAPI 
 
 This challenege was completed using this tutorial:  
 https://medium.com/@kristaps.strals/create-your-own-blog-net-core-f3e6fefafb06
