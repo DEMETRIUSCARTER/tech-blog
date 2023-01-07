@@ -16,9 +16,6 @@
 <a href="https://ibb.co/6bsBDz5"><img src="https://i.ibb.co/RPHyQfW/Screenshot-2023-01-07-at-4-11-20-PM.png" alt="Screenshot-2023-01-07-at-4-11-20-PM" border="0"></a>
 
 
-## WEBSITE LINK
-
-
 
 ## TECHNOLOGIES USED
 VISUAL STUDIO CODE,
