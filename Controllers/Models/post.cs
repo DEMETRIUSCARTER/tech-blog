@@ -9,4 +9,4 @@ public string Body {get;set;}
 public string[] Tags {get;set;}
 public AuthorId Author {get;set;}
 public Author Author {get;set;}
-    }
+}
