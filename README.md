@@ -24,7 +24,8 @@
 VISUAL STUDIO CODE,
 HTML,
 CSS,
-.NET Core WebAPI 
+.NET Core WebAPI,
+C#
 
 This challenege was completed using this tutorial:  
 https://medium.com/@kristaps.strals/create-your-own-blog-net-core-f3e6fefafb06
