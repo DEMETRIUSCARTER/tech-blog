@@ -1,8 +1,9 @@
-namespace BlogApi .Models;
-
-public class Author
+namespace BlogApi.Models
 {
-public int AuthorId {get;set;}
-public string Name {get;set;}
-public string Description {get;set;}
+    public class Author
+{
+public int AuthorId {get; set;}
+public string Name {get; set;}
+public string Description {get; set;}
+}
 }

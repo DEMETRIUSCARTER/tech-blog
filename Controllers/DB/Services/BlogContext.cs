@@ -6,10 +6,11 @@ namespace BlogApi.Services
 {
     public class BlogContext : DbContext
     {
-        public BlogContext(DbContextOptions<BlogContext> options) : base(options) { }
+        public BlogContext (DbContextOptions<BlogContext> options) :
+        base(options) {}
 
-        public DbSet<BlogPost> BlogPosts {get; set;}
-
+        
+        public DbSet<BlogPost> BlogPost {get; set;}
         public DbSet<Author> Authors {get; set;}
     }
 }

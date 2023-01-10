@@ -9,7 +9,7 @@
 
 
 ## GENERAL INFORMATION
- A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This site is currently not functioning properly.
+ A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This site is currently not functioning properly. Unable to install "dotnet ef migrations add InitialCreate" package.
 
 <a href="https://ibb.co/bN9jXHL"><img src="https://i.ibb.co/8PZn9z2/Screenshot-2023-01-07-at-4-09-51-PM.png" alt="Screenshot-2023-01-07-at-4-09-51-PM" border="0"></a>
 

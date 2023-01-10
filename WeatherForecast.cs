@@ -21,25 +21,28 @@ namespace BlogApi
     {
         public Startup(IConfiguration configuration)
         {
-        Configuration = configuration;
+            Configuration=configuration;
         }
         public IConfiguration Configuration {get;}
+
         public void ConfigureServices(IServiceCollection services)
         {
-        services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc().SetCompatibilityVersion (CompatibilityVersion.Version_2_1);
 
-        var connectionString = Configuration.GetConnectionString("BlogContext");
-        services.AddEntityFrameworkNpgsql().AddDbContext<BlogContext>(options => options.UseNpgsql(connectionString));
+            var connectionString =
+            Configuration.GetConnectionString("BlogContext");
+            services.AddEntityFrameworkNpgsql().AddDbContext<BlogContext>(options => options.UseNpgsql(connectionString));
         }
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+
+        public void Configure (IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
             {
-            app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage();
             }
             else
             {
-            app.UseHsts();
+                app.UseHsts();
             }
             app.UseHttpsRedirection();
             app.UseMvc();
